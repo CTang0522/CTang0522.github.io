@@ -1,9 +1,11 @@
 html {
-    background-color:antiquewhite;
     font-size: larger;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
 }
 
 body {
+    background-color: #458fff;
     position:absolute;
     text-align: center;
     margin-left: auto;
@@ -11,8 +13,14 @@ body {
     left: 0;
     right: 0;
     width: 750px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 10px;
+}
+
+
+
+a {
+    color: white;
 }
 
 .profile {

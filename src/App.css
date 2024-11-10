@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  color: #ffffff;
+}
+
+#particles {
+  z-index: -10;
+}
+
+.portrait {
+  height: 60vmin;
+  border-radius: 8vmin;
+}
+
+#aboutMe {
+  font-size: 2.5vmin;
+  width: 70vmin;
+}
+
+.links {
+  font-style: italic;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.links:hover {
+  font-style: normal;
+  color: cadetblue;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  padding: 2vmin;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}

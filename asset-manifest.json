@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8bd21e83.css",
+    "main.js": "/static/js/main.e62027ad.js",
+    "static/js/453.f69bbbff.chunk.js": "/static/js/453.f69bbbff.chunk.js",
+    "static/media/portrait.jpg": "/static/media/portrait.ba149a02e5df6d7acdd3.jpg",
+    "static/media/resume.pdf": "/static/media/resume.2f3ce65deb111c35e6ef.pdf",
+    "index.html": "/index.html",
+    "static/media/github.svg": "/static/media/github.0520689a8aa30d15a02ad26ba8a62341.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.faa9b51e776f41c71056e077a1777b66.svg",
+    "static/media/resume.svg": "/static/media/resume.7135f1a4bc463ed308fc23c18c74b663.svg",
+    "static/media/email.svg": "/static/media/email.6e9dcf3eb71066bbf8cc1f9262e5e8cb.svg",
+    "main.8bd21e83.css.map": "/static/css/main.8bd21e83.css.map",
+    "main.e62027ad.js.map": "/static/js/main.e62027ad.js.map",
+    "453.f69bbbff.chunk.js.map": "/static/js/453.f69bbbff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bd21e83.css",
+    "static/js/main.e62027ad.js"
+  ]
+}

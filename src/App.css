@@ -38,6 +38,18 @@
   text-align: center;
 }
 
+.bigContainer {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping if items overflow */
+}
+
+.bigItem {
+  padding: 20px;
+  text-align: center;
+  max-width: 70vmin;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

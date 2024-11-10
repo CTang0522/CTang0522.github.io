@@ -2,7 +2,7 @@
   "name": "mywebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://CTang0522.github.io",
+  "homepage": "http://CTang0522.github.io/about-me",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@mantine/core": "^7.13.5",

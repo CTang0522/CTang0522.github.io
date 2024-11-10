@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://CTang0522.github.io",
+  "homepage": "http://CTang0522.github.io/index.html",
   "eslintConfig": {
     "extends": [
       "react-app",

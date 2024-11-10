@@ -32,17 +32,18 @@ function App() {
               <div className='bitItem'>
                 <img src={portrait} className='portrait' alt='Portrait' />
                 <div className='container'>
+                  
                   <a href='https://www.linkedin.com/in/ctang0522/' target='_blank' className='item'>
-                    <img src={linkedin} />
+                    <img src={linkedin} title='LinkedIn'/><br/>
                   </a>
                   <a href='https://github.com/CTang0522' target='_blank' className='item'>
-                    <img src={github} />
+                    <img src={github} title='Github'/>
                   </a>
                   <a href={resumePdf} target='_blank' className='item'>
-                    <img src={resume} />
+                    <img src={resume} title='Resume'/>
                   </a>
                   <a href='mailto:christang522@gmail.com' target='_blank' className='item'>
-                    <img src={email} />
+                    <img src={email} title='Send an Email'/>
                   </a>
                 </div>
               </div>
@@ -53,6 +54,9 @@ function App() {
                 enough to study Computer Science as well as obtain minors in Sustainability Studies and Geospatial Information Science. Outside of
                 the classroom I was also an active member of <a href='https://ktpumd.com/' target='_blank' className='links'>Kappa Theta Pi</a>. Post graduation I
                 have dedicated myself to developing my talents as a full-stack developer through personal projects as well as work experience.
+                <br/><br/>
+                If I'm not working or coding I spend my free time working out and staying active. I love going to the gym or playing volleyball and lacrosse.
+                I am in the market for new hobbies though and am always ready to try new things and expose myself to new ideas.
               </div>
             </div>
           </Fade>

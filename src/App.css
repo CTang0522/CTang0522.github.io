@@ -38,7 +38,8 @@
 .bigContainer {
   justify-content: center;
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping if items overflow */
+  flex-wrap: wrap;
+  /* Allows wrapping if items overflow */
 }
 
 .bigItem {

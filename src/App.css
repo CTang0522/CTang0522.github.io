@@ -1,10 +1,8 @@
 .App {
+  background: linear-gradient(to bottom right, #0000ff 0%, #ff9999 100%);
   text-align: center;
   color: #ffffff;
-}
-
-#particles {
-  z-index: -10;
+  mix-blend-mode: difference;
 }
 
 .portrait {
@@ -24,8 +22,7 @@
 }
 
 .links:hover {
-  font-style: normal;
-  color: cadetblue;
+  color: #000000;
 }
 
 .container {

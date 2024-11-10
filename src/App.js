@@ -9,9 +9,8 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import particlesOptions from "./particles.json";
-import NavBar from "./Navbar"
 import { Fade } from "react-awesome-reveal";
-import { MantineProvider, Flex, em } from '@mantine/core';
+import { MantineProvider } from '@mantine/core';
 
 
 function App() {

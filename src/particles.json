@@ -1,10 +1,4 @@
 {
-    "background": {
-      "color": {
-        "value": "#000000"
-      }
-    },
-    
     "fpsLimit": 50,
     "interactivity": {
       "events": {
@@ -33,7 +27,7 @@
         "value": "#ffffff"
       },
       "links": {
-        "color": "#4444ff",
+        "color": "#ffffff",
         "distance": 150,
         "enable": true,
         "opacity": 0.5,

@@ -53,7 +53,7 @@ function App() {
                 I have recently graduated from the University of Maryland in College Park, MD (Class of 2024). During my time at UMD I was lucky
                 enough to study Computer Science as well as obtain minors in Sustainability Studies and Geospatial Information Science. Outside of
                 the classroom I was also an active member of <a href='https://ktpumd.com/' target='_blank' className='links'>Kappa Theta Pi</a>. Post graduation I
-                have dedicated myself to developing my talents as a developer
+                have dedicated myself to developing my talents as a full-stack developer through personal projects as well as work experience.
               </div>
             </Flex>
           </Fade>

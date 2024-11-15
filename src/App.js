@@ -25,25 +25,25 @@ function App() {
     <div className="App">
       <MantineProvider>
         <header className="App-header">
-          <Particles id='particles' options={particlesOptions} init={particlesInit}>Hello World</Particles>
+          <Particles id='particles' options={particlesOptions} init={particlesInit} />
           <Fade>
             <br />
             <div className='bigContainer'>
-              <div className='bitItem'>
+              <div className='bigItem'>
                 <img src={portrait} className='portrait' alt='Portrait' />
                 <div className='container'>
                   
                   <a href='https://www.linkedin.com/in/ctang0522/' target='_blank' className='item'>
-                    <img src={linkedin} title='LinkedIn'/><br/>
+                    <img src={linkedin} title='LinkedIn' className='linkIcon'/><br/>
                   </a>
                   <a href='https://github.com/CTang0522' target='_blank' className='item'>
-                    <img src={github} title='Github'/>
+                    <img src={github} title='Github' className='linkIcon'/>
                   </a>
                   <a href={resumePdf} target='_blank' className='item'>
-                    <img src={resume} title='Resume'/>
+                    <img src={resume} title='Resume' className='linkIcon'/>
                   </a>
                   <a href='mailto:christang522@gmail.com' target='_blank' className='item'>
-                    <img src={email} title='Send an Email'/>
+                    <img src={email} title='Send an Email' className='linkIcon'/>
                   </a>
                 </div>
               </div>

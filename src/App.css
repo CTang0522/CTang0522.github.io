@@ -6,13 +6,13 @@
 }
 
 .portrait {
-  height: 60vmin;
+  height: 70vmin;
   border-radius: 8vmin;
 }
 
 #aboutMe {
   font-size: 2.5vmin;
-  width: 70vmin;
+  width: 80vmin;
 }
 
 .links {
@@ -48,10 +48,8 @@
   max-width: 70vmin;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.linkIcon {
+  width: 5vmin;
 }
 
 .App-header {

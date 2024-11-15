@@ -29,7 +29,7 @@ function App() {
           <Fade>
             <br />
             <div className='bigContainer'>
-              <div className='bigItem'>
+              <div>
                 <img src={portrait} className='portrait' alt='Portrait' />
                 <div className='container'>
                   
@@ -47,7 +47,6 @@ function App() {
                   </a>
                 </div>
               </div>
-              <br />
               <div id='aboutMe' className='bigItem'>
                 Hello, my name is Christopher Tang and I am an Application Developer at <a href="http://www.componentwise.com/" target='_blank' className='links'>ComponentWise Solutions</a> based out of Perry Hall, MD.
                 I have recently graduated from the University of Maryland in College Park, MD (Class of 2024). During my time at UMD I was lucky

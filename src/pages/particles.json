@@ -51,7 +51,8 @@
           "enable": true,
           "value_area": 800
         },
-        "value": 80
+        "value": 80,
+        "limit": 200
       },
       "opacity": {
         "value": 0.5

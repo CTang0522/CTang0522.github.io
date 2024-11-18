@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home/Home';
@@ -9,13 +9,13 @@ import Projects from './pages/Projects/Projects';
 
 export default function App() {
   return(
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Projects/Calculator" element={<Calculator/>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

@@ -1,0 +1,70 @@
+.App {
+  background: linear-gradient(to bottom right, #0000ff 0%, #ff9999 100%);
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: difference;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.whitePiece {
+  width: 75%;
+  height: 75%;
+  color: #ffffff;
+  background-color: #0000ff;
+  border-radius: 5vmin;
+}
+
+.blackPiece {
+  width: 75%;
+  height: 75%;
+  color: #000000;
+  background-color: #ff9999;
+  border-radius: 5vmin;
+  margin: auto;
+}
+
+.nothingHere {
+  opacity: 0;
+}
+
+.blackSpace {
+  width: 9vmin;
+  height: 9vmin;
+  background-color:#000000;
+}
+
+.whiteSpace {
+  width: 9vmin;
+  height: 9vmin;
+  background-color: #ffffff;
+}
+
+.board {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Ensures border and padding don’t affect size */
+  border: none;
+}
+
+.startGame {
+  width: 15vmin;
+  height: 5vmin;
+  border-radius: 5vmin;
+}

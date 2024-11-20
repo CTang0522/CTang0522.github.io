@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home/Home';
 import Calculator from './pages/Calculator/Calculator';
 import Projects from './pages/Projects/Projects';
+import Chess from './pages/Chess/Chess';
 
 export default function App() {
   return(
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Projects/Calculator" element={<Calculator/>} />
+          <Route path="/Projects/Chess" element={<Chess/>} />
       </Routes>
     </HashRouter>
   )

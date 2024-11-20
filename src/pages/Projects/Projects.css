@@ -36,11 +36,12 @@
 }
 
 .projectLink {
-    width: 15vmin;
-    height: 15vmin;
-    border-radius: 5vmin;
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 3vmin;
     opacity: 1;
     border: 3px solid black;
+    position: relative;
 }
 
 

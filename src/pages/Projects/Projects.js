@@ -6,6 +6,7 @@ import { useCallback } from "react";
 import { Outlet, Link } from "react-router-dom";
 
 import calculatorLogo from './assets/Calculator_Screenshot.png'
+import chessLogo from './assets/Chess_Screenshot.png'
 
 
 function Projects() {
@@ -21,6 +22,11 @@ function Projects() {
                     <Link to="/Projects/Calculator" className='projectLinks'>
                         <div className='projectLinksText'>Calculator Application</div>
                         <img src={calculatorLogo} className='projectLink' />
+                    </Link>
+                    <br/>
+                    <Link to="/Projects/Chess" className='projectLinks'>
+                        <div className='projectLinksText'>Chess Application</div>
+                        <img src={chessLogo} className='projectLink' />
                     </Link>
                 </div>
 

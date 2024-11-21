@@ -22,13 +22,14 @@
     padding: 2vmin;
     background-color: #ff9999;
     z-index: 100;
-    width: 25vmin;
-    height: 25vmin;
+    width: 15vmin;
+    height: 15vmin;
 }
 
 .projectLinksText{
     color: #ffffff;
     text-decoration: none;
+    font-size: smaller;
 }
 
 .projectLinksText:hover {
@@ -36,8 +37,8 @@
 }
 
 .projectLink {
-    width: 20vmin;
-    height: 20vmin;
+    width: 10vmin;
+    height: 10vmin;
     border-radius: 3vmin;
     opacity: 1;
     border: 3px solid black;

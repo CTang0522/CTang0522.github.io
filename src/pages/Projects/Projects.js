@@ -7,6 +7,7 @@ import { Outlet, Link } from "react-router-dom";
 
 import calculatorLogo from './assets/Calculator_Screenshot.png'
 import chessLogo from './assets/Chess_Screenshot.png'
+import weatherLogo from './assets/Weather_Screenshot.png'
 
 
 function Projects() {
@@ -27,6 +28,11 @@ function Projects() {
                     <Link to="/Projects/Chess" className='projectLinks'>
                         <div className='projectLinksText'>Chess Application</div>
                         <img src={chessLogo} className='projectLink' />
+                    </Link>
+                    <br/>
+                    <Link to="/Projects/Weather" className='projectLinks'>
+                        <div className='projectLinksText'>Weather Application</div>
+                        <img src={weatherLogo} className='projectLink' />
                     </Link>
                 </div>
 

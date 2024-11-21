@@ -7,15 +7,18 @@ import Home from './pages/Home/Home';
 import Calculator from './pages/Calculator/Calculator';
 import Projects from './pages/Projects/Projects';
 import Chess from './pages/Chess/Chess';
+import Weather from './pages/Weather/Weather';
 
 export default function App() {
   return(
     <HashRouter>
       <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/" exact element={<Home/>} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Projects/Calculator" element={<Calculator/>} />
           <Route path="/Projects/Chess" element={<Chess/>} />
+          <Route path="/Projects/Weather" element={<Weather/>} />
+
       </Routes>
     </HashRouter>
   )

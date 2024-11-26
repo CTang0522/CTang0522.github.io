@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# My Personal Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This porject is meant to demonstrate my knowledge of React as well as abilities with JavaScript, HTML, and CSS. Additionally, this project acts as a portfolio of my React works which is accessible through the [Personal Projects Page](https://ctang0522.github.io/#/Projects). This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Pages
+* [Home Page](https://ctang0522.github.io/#/)
+* [Portfolio Page](https://ctang0522.github.io/#/Projects)
+    * [Calculator Project](https://ctang0522.github.io/#/Projects/Calculator)
+    * [Chess Project](https://ctang0522.github.io/#/Projects/Chess)
+    * [Weather Project](https://ctang0522.github.io/#/Projects/Weather)
 
 ## Available Scripts
 

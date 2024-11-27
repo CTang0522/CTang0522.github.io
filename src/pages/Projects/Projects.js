@@ -8,6 +8,7 @@ import { Outlet, Link } from "react-router-dom";
 import calculatorLogo from './assets/Calculator_Screenshot.png'
 import chessLogo from './assets/Chess_Screenshot.png'
 import weatherLogo from './assets/Weather_Screenshot.png'
+import cameraLogo from './assets/Camera_Logo.webp'
 
 
 function Projects() {
@@ -33,6 +34,11 @@ function Projects() {
                     <Link to="/Projects/Weather" className='projectLinks'>
                         <div className='projectLinksText'>Weather Application</div>
                         <img src={weatherLogo} className='projectLink' />
+                    </Link>
+                    <br/>
+                    <Link to="/Projects/Camera" className='projectLinks'>
+                        <div className='projectLinksText'>Camera Application</div>
+                        <img src={cameraLogo} className='projectLink' />
                     </Link>
                 </div>
 

@@ -1,0 +1,15 @@
+video {
+    display: block; /* Ensures no extra margins or inline behavior */
+    margin: auto; /* Centers the video horizontally */
+    width: 85vmin;
+    border-radius: 5vmin;
+    border: 1px solid black;
+}
+
+.captureButton {
+    width: 25vmin;
+    height: 5vmin;
+    margin-top: 1vmin;
+    border: 1px solid black;
+    border-radius: 5vmin;
+}

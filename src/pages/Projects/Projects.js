@@ -9,6 +9,7 @@ import calculatorLogo from './assets/Calculator_Screenshot.png'
 import chessLogo from './assets/Chess_Screenshot.png'
 import weatherLogo from './assets/Weather_Screenshot.png'
 import cameraLogo from './assets/Camera_Logo.webp'
+import artBoardLogo from './assets/ArtBoard_Screenshot.png'
 
 
 function Projects() {
@@ -39,6 +40,11 @@ function Projects() {
                     <Link to="/Projects/Camera" className='projectLinks'>
                         <div className='projectLinksText'>Camera Application</div>
                         <img src={cameraLogo} className='projectLink' />
+                    </Link>
+                    <br />
+                    <Link to="/Projects/ArtBoard" className='projectLinks'>
+                        <div className='projectLinksText'>ArtBoard Application</div>
+                        <img src={artBoardLogo} className='projectLink' />
                     </Link>
                 </div>
 

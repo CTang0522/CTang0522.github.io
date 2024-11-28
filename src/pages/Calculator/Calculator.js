@@ -4,7 +4,7 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 
 
 function Calculator() {

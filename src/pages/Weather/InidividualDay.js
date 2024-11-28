@@ -11,7 +11,7 @@ function IndividualDay(period) {
                 <br/>
                 <strong className="periodName">{period.period.name}</strong><br/><br/>
                 Temp: {period.period.temperature}&deg;{period.period.temperatureUnit}<br/>
-                <img style={{width:'20vmin', height:'20vmin', margin:'auto', marginTop:'2vmin'}} src={period.period.icon}/>
+                <img style={{width:'20vmin', height:'20vmin', margin:'auto', marginTop:'2vmin'}} src={period.period.icon} alt={period.period.icon}/>
                 <br/>
                 <div className="shortForecast">
                 {period.period.shortForecast}

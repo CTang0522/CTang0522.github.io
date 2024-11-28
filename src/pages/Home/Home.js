@@ -31,16 +31,16 @@ function Home() {
                 <img src={portrait} className='portrait' alt='Portrait' />
                 <div className='container'>
                   
-                  <a href='https://www.linkedin.com/in/ctang0522/' target='_blank' className='item'>
+                  <a href='https://www.linkedin.com/in/ctang0522/' target='_blank' className='item' rel="noreferrer">
                     <img src={linkedin} title='LinkedIn' className='linkIcon'/><br/>
                   </a>
-                  <a href='https://github.com/CTang0522' target='_blank' className='item'>
+                  <a href='https://github.com/CTang0522' target='_blank' className='item' rel="noreferrer">
                     <img src={github} title='Github' className='linkIcon'/>
                   </a>
-                  <a href={resumePdf} target='_blank' className='item'>
+                  <a href={resumePdf} target='_blank' className='item' rel="noreferrer">
                     <img src={resume} title='Resume' className='linkIcon'/>
                   </a>
-                  <a href='mailto:christang522@gmail.com' target='_blank' className='item'>
+                  <a href='mailto:christang522@gmail.com' target='_blank' className='item' rel="noreferrer">
                     <img src={email} title='Send an Email' className='linkIcon'/>
                   </a>
                 </div>

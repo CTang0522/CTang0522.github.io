@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react"
 import IndividualDay from "./InidividualDay";
-import { ScrollArea, MantineContext, MantineProvider } from '@mantine/core';
+import { ScrollArea, MantineProvider } from '@mantine/core';
 import particlesOptions from "../particles.json";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
@@ -11,7 +11,6 @@ function Weather() {
         loadSlim(main);
       }, [])
 
-    const [location,setLocation] = useState({ lat:null, lon:null});
 
     const [forecast, setForecast] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -41,10 +40,6 @@ function Weather() {
             const gridPointResponse = await fetch(
                 `https://api.weather.gov/points/${latitude},${longitude}`
             );
-            setLocation({
-                lat:latitude,
-                lon:longitude
-            })
             if (!gridPointResponse.ok) throw new Error('Failed to fetch grid points');
             const gridPointData = await gridPointResponse.json();
 

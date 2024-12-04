@@ -6,6 +6,7 @@ import './DragItems.css'
 import { IconTrash } from "@tabler/icons-react";
 
 import { useState, useRef, useCallback } from 'react';
+import Navbar from "../Navbar";
 
 
 export function DragItems() {
@@ -58,6 +59,7 @@ export function DragItems() {
     <div className="App">
         <Particles id='particles' options={particlesOptions} init={particlesInit} />
         <header className="App-header">
+            <Navbar/>
             <div className="myCanvas" id="myCanvas" ref={canvasRef}>
                 {items.map((item) => (
                     <Draggable

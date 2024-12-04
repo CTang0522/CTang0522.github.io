@@ -6,6 +6,7 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
 import { VideoDisplay } from './VideoDisplay'
+import Navbar from '../Navbar';
 
 export function Camera() {
     const particlesInit = useCallback(main => {
@@ -31,6 +32,7 @@ export function Camera() {
         <div className="App">
             <Particles id='particles' options={particlesOptions} init={particlesInit} />
             <header className="App-header">
+                <Navbar/>
                 <VideoDisplay stream={videoStream}/>
             </header>
         </div>

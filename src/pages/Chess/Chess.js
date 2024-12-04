@@ -1,6 +1,7 @@
 import "./Styles/Chess.css";
 import { useCallback, useState } from "react";
 import { Space } from "./Space";
+import Navbar from "../Navbar";
 
 function Chess() {
   /*
@@ -616,6 +617,7 @@ function Chess() {
   return (
     <div className="App">
       <header className="App-header">
+        <Navbar />
         <p id="gameState">{gameState}</p>
         {turn == 1 ? (
           <div className="startGame"></div>

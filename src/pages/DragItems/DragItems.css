@@ -98,11 +98,12 @@
 
 .myCanvas {
     width: 95vw;
-    height: 82vmin;
+    height: 79vmin;
     background-color: black;
     border: 1px solid black;
     border-radius: 5vmin;
     position: relative;
     overflow: hidden;
     margin-bottom: 15vmin;
+    margin-top: 6vmin;
 }

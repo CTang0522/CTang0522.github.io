@@ -10,6 +10,7 @@ import chessLogo from './assets/Chess_Screenshot.png'
 import weatherLogo from './assets/Weather_Screenshot.png'
 import cameraLogo from './assets/Camera_Logo.webp'
 import artBoardLogo from './assets/ArtBoard_Screenshot.png'
+import Navbar from '../Navbar';
 
 
 function Projects() {
@@ -21,30 +22,31 @@ function Projects() {
         <div className='App'>
             <Particles id='particles' options={particlesOptions} init={particlesInit} className='particles'/>
             <header className="App-header">
-                <div>
+                <Navbar />
+                <div className='projectContainer'>
                     <Link to="/Projects/Calculator" className='projectLinks'>
                         <div className='projectLinksText'>Calculator Application</div>
                         <img src={calculatorLogo} className='projectLink' />
                     </Link>
-                    <br/>
                     <Link to="/Projects/Chess" className='projectLinks'>
                         <div className='projectLinksText'>Chess Application</div>
                         <img src={chessLogo} className='projectLink' />
                     </Link>
-                    <br/>
                     <Link to="/Projects/Weather" className='projectLinks'>
                         <div className='projectLinksText'>Weather Application</div>
                         <img src={weatherLogo} className='projectLink' />
                     </Link>
-                    <br/>
                     <Link to="/Projects/Camera" className='projectLinks'>
                         <div className='projectLinksText'>Camera Application</div>
                         <img src={cameraLogo} className='projectLink' />
                     </Link>
-                    <br />
                     <Link to="/Projects/ArtBoard" className='projectLinks'>
                         <div className='projectLinksText'>ArtBoard Application</div>
                         <img src={artBoardLogo} className='projectLink' />
+                    </Link>
+                    <Link to="/Projects/ApiTester" className='projectLinks'>
+                        <div className='projectLinksText'>API TESTER Application</div>
+                        <img src={""} className='projectLink' />
                     </Link>
                 </div>
 

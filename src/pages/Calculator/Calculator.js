@@ -5,6 +5,7 @@ import { loadSlim } from "tsparticles-slim";
 
 
 import { useState, useCallback } from 'react';
+import Navbar from '../Navbar';
 
 
 function Calculator() {
@@ -95,6 +96,7 @@ function Calculator() {
       <Particles id='particles' options={particlesOptions} init={particlesInit} />
 
       <header className="App-header">
+        <Navbar/>
         <div className="frameBorder">
           <div className="display">
             <div className='displayInterior'>

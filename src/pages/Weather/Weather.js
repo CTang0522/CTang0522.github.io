@@ -4,6 +4,7 @@ import { ScrollArea, MantineProvider } from '@mantine/core';
 import particlesOptions from "../particles.json";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
+import Navbar from "../Navbar";
 
 
 function Weather() {
@@ -80,6 +81,7 @@ function Weather() {
             <div className="App">
                 <Particles id='particles' options={particlesOptions} init={particlesInit} />
                 <header className="App-header">
+                  <Navbar />
                     <h2>Your Weather Report</h2>
                     <ScrollArea scrollbars="x" w={"80vw"} style={{border:"2px solid #ffffff",borderRadius:"5px"}}>
                         <div style={{display:"flex"}}>

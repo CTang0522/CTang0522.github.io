@@ -12,6 +12,7 @@ import particlesOptions from "../particles.json";
 import { Fade } from "react-awesome-reveal";
 import { MantineProvider } from '@mantine/core';
 import { Link } from "react-router-dom";
+import Navbar from '../Navbar'
 
 
 function Home() {
@@ -24,6 +25,7 @@ function Home() {
       <MantineProvider>
         <header className="App-header">
           <Particles id='particles' options={particlesOptions} init={particlesInit} />
+          <Navbar />
           <Fade>
             <br />
             <div className='bigContainer'>

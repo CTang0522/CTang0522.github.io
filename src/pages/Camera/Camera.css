@@ -13,3 +13,9 @@ video {
     border: 1px solid black;
     border-radius: 5vmin;
 }
+
+.captureButton:active {
+    -webkit-box-shadow: inset 0px 0px 5px gray;
+     -moz-box-shadow: inset 0px 0px 5px gray;
+          box-shadow: inset 0px 0px 5px gray;
+}

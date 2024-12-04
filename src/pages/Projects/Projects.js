@@ -44,10 +44,6 @@ function Projects() {
                         <div className='projectLinksText'>ArtBoard Application</div>
                         <img src={artBoardLogo} className='projectLink' />
                     </Link>
-                    <Link to="/Projects/ApiTester" className='projectLinks'>
-                        <div className='projectLinksText'>API TESTER Application</div>
-                        <img src={""} className='projectLink' />
-                    </Link>
                 </div>
 
             </header>

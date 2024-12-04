@@ -1,18 +1,11 @@
-import { useState, useEffect, useCallback } from "react"
+import { useState, useEffect } from "react"
 import IndividualDay from "./InidividualDay";
 import { ScrollArea, MantineProvider } from '@mantine/core';
-import particlesOptions from "../particles.json";
-import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
 import Navbar from "../Navbar";
+import MyParticles from "../MyParticles";
 
 
 function Weather() {
-    const particlesInit = useCallback(main => {
-        loadSlim(main);
-      }, [])
-
-
     const [forecast, setForecast] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -69,7 +62,7 @@ function Weather() {
     if(loading){
         return(
             <div className="App">
-                <Particles id='particles' options={particlesOptions} init={particlesInit} />
+                <MyParticles />
                 <header className="App-header">
                     Loading Weather Data Please Wait...
                 </header>
@@ -79,7 +72,7 @@ function Weather() {
         return(
             <MantineProvider>
             <div className="App">
-                <Particles id='particles' options={particlesOptions} init={particlesInit} />
+                <MyParticles />
                 <header className="App-header">
                   <Navbar />
                     <h2>Your Weather Report</h2>

@@ -1,8 +1,4 @@
 import './Projects.css';
-import particlesOptions from "../particles.json";
-import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
-import { useCallback } from "react";
 import { Outlet, Link } from "react-router-dom";
 
 import calculatorLogo from './assets/Calculator_Screenshot.png'
@@ -11,16 +7,15 @@ import weatherLogo from './assets/Weather_Screenshot.png'
 import cameraLogo from './assets/Camera_Logo.webp'
 import artBoardLogo from './assets/ArtBoard_Screenshot.png'
 import Navbar from '../Navbar';
+import MyParticles from '../MyParticles';
 
 
 function Projects() {
-    const particlesInit = useCallback(main => {
-        loadSlim(main);
-    }, [])
+    
 
     return (
         <div className='App'>
-            <Particles id='particles' options={particlesOptions} init={particlesInit} className='particles'/>
+            <MyParticles/>
             <header className="App-header">
                 <Navbar />
                 <div className='projectContainer'>

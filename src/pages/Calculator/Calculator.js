@@ -1,17 +1,10 @@
 import './Calculator.css';
-import particlesOptions from "../particles.json";
-import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
-
-
-import { useState, useCallback } from 'react';
+import { useState } from 'react';
 import Navbar from '../Navbar';
+import MyParticles from '../MyParticles';
 
 
 function Calculator() {
-  const particlesInit = useCallback(main => {
-    loadSlim(main);
-  }, [])
 
   const [current, setCurrent] = useState("")
   const empty = ""
@@ -93,7 +86,7 @@ function Calculator() {
 
   return (
     <div className="App">
-      <Particles id='particles' options={particlesOptions} init={particlesInit} />
+      <MyParticles/>
 
       <header className="App-header">
         <Navbar/>

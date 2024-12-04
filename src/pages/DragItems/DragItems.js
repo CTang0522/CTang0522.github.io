@@ -1,18 +1,13 @@
-import particlesOptions from "../particles.json";
-import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
 import Draggable from 'react-draggable'
 import './DragItems.css'
 import { IconTrash } from "@tabler/icons-react";
 
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef } from 'react';
 import Navbar from "../Navbar";
+import MyParticles from "../MyParticles";
 
 
 export function DragItems() {
-    const particlesInit = useCallback(main => {
-        loadSlim(main);
-    }, [])
 
     const canvasRef = useRef(null)
     const [items, setItems] = useState([]);
@@ -57,7 +52,7 @@ export function DragItems() {
 
     return(
     <div className="App">
-        <Particles id='particles' options={particlesOptions} init={particlesInit} />
+        <MyParticles/>
         <header className="App-header">
             <Navbar/>
             <div className="myCanvas" id="myCanvas" ref={canvasRef}>

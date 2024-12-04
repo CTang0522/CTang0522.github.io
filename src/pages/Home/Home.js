@@ -5,26 +5,19 @@ import linkedin from './assets/linkedin.svg'
 import resume from './assets/resume.svg'
 import resumePdf from './assets/resume.pdf'
 import './Home.css';
-import { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
-import particlesOptions from "../particles.json";
 import { Fade } from "react-awesome-reveal";
 import { MantineProvider } from '@mantine/core';
 import { Link } from "react-router-dom";
 import Navbar from '../Navbar'
+import MyParticles from '../MyParticles'
 
 
 function Home() {
-  const particlesInit = useCallback(main => {
-    loadSlim(main);
-  }, [])
-
   return (
     <div className="App">
       <MantineProvider>
         <header className="App-header">
-          <Particles id='particles' options={particlesOptions} init={particlesInit} />
+          <MyParticles/>
           <Navbar />
           <Fade>
             <br />

@@ -1,17 +1,12 @@
 import './Camera.css'
 
-import { useCallback, useState, useEffect } from "react";
-import particlesOptions from "../particles.json";
-import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
+import { useState, useEffect } from "react";
 
 import { VideoDisplay } from './VideoDisplay'
 import Navbar from '../Navbar';
+import MyParticles from '../MyParticles';
 
 export function Camera() {
-    const particlesInit = useCallback(main => {
-        loadSlim(main);
-      }, [])
 
     const [videoStream, setVideoStream] = useState(null)
     
@@ -30,7 +25,7 @@ export function Camera() {
 
     return(
         <div className="App">
-            <Particles id='particles' options={particlesOptions} init={particlesInit} />
+            <MyParticles/>
             <header className="App-header">
                 <Navbar/>
                 <VideoDisplay stream={videoStream}/>

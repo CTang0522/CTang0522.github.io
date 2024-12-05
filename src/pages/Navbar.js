@@ -48,6 +48,10 @@ export function Navbar() {
                     - Artboard Application
                 </a>&nbsp;<br/>
 
+                &nbsp;<a href="/#/Projects/ToDo" className="navbar-link">
+                    - To Do List Application
+                </a>&nbsp;<br/>
+
             </div>
             )}
       </div>

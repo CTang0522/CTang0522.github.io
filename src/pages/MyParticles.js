@@ -8,7 +8,7 @@ export function MyParticles(){
         loadSlim(main);
     }, [])
 
-    return(<Particles id='particles' options={particlesOptions} init={particlesInit} className='particles'/>)
+    return(<Particles id='particles' options={particlesOptions} init={particlesInit} className='particles' style={{zIndex:-1}}/>)
 
 }
 

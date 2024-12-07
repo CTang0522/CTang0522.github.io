@@ -52,6 +52,10 @@ export function Navbar() {
                     - To Do List Application
                 </a>&nbsp;<br/>
 
+                &nbsp;<a href="/#/Projects/MovieCatalogue" className="navbar-link">
+                    - Movie Catalogue Application
+                </a>&nbsp;<br/>
+
             </div>
             )}
       </div>

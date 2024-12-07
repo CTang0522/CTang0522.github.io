@@ -7,6 +7,7 @@ import weatherLogo from './assets/Weather_Screenshot.png'
 import cameraLogo from './assets/Camera_Logo.webp'
 import artBoardLogo from './assets/ArtBoard_Screenshot.png'
 import toDo from './assets/To_Do.png'
+import movie from './assets/Movie.png'
 import Navbar from '../Navbar';
 import MyParticles from '../MyParticles';
 
@@ -43,6 +44,10 @@ function Projects() {
                     <Link to="/Projects/ToDo" className='projectLinks'>
                         <div className='projectLinksText'>To Do List Application</div>
                         <img src={toDo} className='projectLink' />
+                    </Link>
+                    <Link to="/Projects/MovieCatalogue" className='projectLinks'>
+                        <div className='projectLinksText'>IMDb Application</div>
+                        <img src={movie} className='projectLink' />
                     </Link>
                 </div>
 

@@ -1,0 +1,48 @@
+.movieContainer {
+    background-color:lightgray;
+    color: black;
+    border-radius: 5vmin;
+    z-index: 1;
+    width: 90vw;
+    height: 90vmin;
+    position: absolute;
+    top: 6vmin;
+}
+
+.movieInput {
+    width: 30vw;
+    height: 3vmin;
+    border-radius: 3vmin;
+    padding: 1vmin;
+}
+
+.movieSearchButton {
+    width: 15vw;
+    height: 5vmin;
+    border-radius: 3vmin;
+    background-color: lightcoral;
+    border: 1px solid gray
+}
+
+.movie {
+    font-size: small;
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: 95%;
+    margin: auto;
+    border-radius: 3vmin;
+    margin-bottom: 1vmin;
+}
+
+.movieScrollContainer{
+    overflow-y: scroll;
+    width: 90%;
+    height: 70%;
+    margin-top: 1vmin;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.moviesError {
+    color: red;
+}

@@ -44,6 +44,12 @@ export function DragItems() {
         setMaxZIndex(maxZIndex+1);
     }
 
+    const removeItem = (event, id) => {
+        event.preventDefault()
+        const newItems = items.filter((item) => item.id !== id)
+        setItems(newItems);
+    }
+
     const clearBoard = () => {
         setItems([])
         setMaxZIndex(0)
@@ -63,7 +69,7 @@ export function DragItems() {
                         onStart={() => bringToFront(item.id)}
                         onStop={(e, data) => handleDrag(e, data, item.id)}
                     >
-                        <div className={item.dragItemType} />
+                        <div className={item.dragItemType} onContextMenu={(event) => {removeItem(event, item.id)}}/>
                     </Draggable>
                 ))}
             </div>

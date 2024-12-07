@@ -163,7 +163,6 @@ function Chess() {
 
   function setSpace(space, piece) {
     // Define a mapping for each space
-    console.log(space);
     const spaceMapping = {
       a1: () => seta1(piece),
       a2: () => seta2(piece),
@@ -239,11 +238,8 @@ function Chess() {
   }
 
   //Chess Game Logic
-  function getValidDestination(space, turn) {
-    const piece = board[selectedSpace];
-    const result = [];
-
-    var valid = validMoves(turn);
+  function getValidDestination(space, team) {
+    var valid = validMoves(team);
     if (valid.includes(space)) {
       makeMove(selectedSpace, space);
     }
@@ -282,7 +278,8 @@ function Chess() {
             board[selectedSpace[0] + String(Number(selectedSpace[1]) - 1)] ===
             ""
           ) {
-            if (Number(selectedSpace[1]) == 7) {
+            if (Number(selectedSpace[1]) == 7 && board[selectedSpace[0] + "5"] === "") 
+            {
               res.push(selectedSpace[0] + String(Number(selectedSpace[1]) - 2));
             }
             res.push(selectedSpace[0] + String(Number(selectedSpace[1]) - 1));
@@ -343,7 +340,7 @@ function Chess() {
             board[selectedSpace[0] + String(Number(selectedSpace[1]) + 1)] ===
             ""
           ) {
-            if (Number(selectedSpace[1]) == 2) {
+            if (Number(selectedSpace[1]) == 2 && board[selectedSpace[0] + "4"] === "") {
               res.push(selectedSpace[0] + String(Number(selectedSpace[1]) + 2));
             }
             res.push(selectedSpace[0] + String(Number(selectedSpace[1]) + 1));

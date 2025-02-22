@@ -12,6 +12,7 @@ import Camera from './pages/Camera/Camera';
 import DragItems from './pages/DragItems/DragItems';
 import ToDo from './pages/ToDo/ToDo';
 import MovieCatalogue from './pages/MovieCatalogue/MovieCatalogue';
+import PixelArt from './pages/PixelArt/PixelArt';
 
 export default function App() {
   return(
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/Projects/ArtBoard" element={<DragItems/>} />
           <Route path="/Projects/ToDo" element={<ToDo/>} />
           <Route path="/Projects/MovieCatalogue" element={<MovieCatalogue/>} />
+          <Route path="/Projects/PixelArt" element={<PixelArt/>} />
 
 
       </Routes>

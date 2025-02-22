@@ -56,6 +56,10 @@ export function Navbar() {
                     - Movie Catalogue Application
                 </a>&nbsp;<br/>
 
+                &nbsp;<a href="/#/Projects/PixelArt" className="navbar-link">
+                    - PixelArt Application
+                </a>&nbsp;<br/>
+
             </div>
             )}
       </div>

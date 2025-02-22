@@ -1,0 +1,9 @@
+.pixelArtPixel {
+    width: 1vmin;
+    height: 1vmin;
+    border: 0.1vmin solid black;
+}
+
+.pixelArtPixel:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}

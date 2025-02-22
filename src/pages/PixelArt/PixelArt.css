@@ -1,0 +1,36 @@
+.pixelArtBoardRow {
+    display: flex; /* Makes elements align in a row */
+    flex-wrap: nowrap; /* Prevents wrapping to the next line */
+}
+
+.pixelSelector {
+    width: 8vmin;
+    height: 8vmin;
+    border: 1px solid black;
+    align-content: center;
+}
+
+.pixelSelector:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.clearBoard {
+    width: 40vmin;
+    height: 5vmin;
+    border-radius: 5vmin;
+    font-size: large;
+}
+
+.clearBoard:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.customColorSelector {
+    background-color: lightgray;
+    color: black;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 2vmin;
+    width: 75vw;
+}
+

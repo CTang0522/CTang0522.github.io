@@ -1,27 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.786fb070.css",
-    "main.js": "/static/js/main.b2c47b77.js",
+    "main.css": "/static/css/main.139e937a.css",
+    "main.js": "/static/js/main.d44142e4.js",
     "static/js/453.f69bbbff.chunk.js": "/static/js/453.f69bbbff.chunk.js",
     "static/media/Weather_Screenshot.png": "/static/media/Weather_Screenshot.4f3c891613b57610d909.png",
     "static/media/portrait.jpg": "/static/media/portrait.ba149a02e5df6d7acdd3.jpg",
     "static/media/Chess_Screenshot.png": "/static/media/Chess_Screenshot.f03c6bb95a19a45ecc03.png",
+    "static/media/cardback.png": "/static/media/cardback.d31d5ee536c5fbfba3bd.png",
     "static/media/Calculator_Screenshot.png": "/static/media/Calculator_Screenshot.3e65f934fe63f9f86462.png",
     "static/media/ArtBoard_Screenshot.png": "/static/media/ArtBoard_Screenshot.6738ee67bba563174a2c.png",
     "static/media/resume.pdf": "/static/media/resume.2f3ce65deb111c35e6ef.pdf",
     "static/media/To_Do.png": "/static/media/To_Do.1f126acf97b337f1d371.png",
     "static/media/Camera_Logo.webp": "/static/media/Camera_Logo.efd8d5a462f3533d244b.webp",
+    "static/media/white.svg": "/static/media/white.99c7fe1b9600148fbeed.svg",
+    "static/media/red.svg": "/static/media/red.b8e69eab9136b4e4a401.svg",
+    "static/media/green.svg": "/static/media/green.1e9be629cc98068fb268.svg",
+    "static/media/black.svg": "/static/media/black.7f78a23faaceb72cf1d0.svg",
+    "static/media/blue.svg": "/static/media/blue.8fcc549bb705b8de6da4.svg",
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.0520689a8aa30d15a02ad26ba8a62341.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.faa9b51e776f41c71056e077a1777b66.svg",
     "static/media/resume.svg": "/static/media/resume.7135f1a4bc463ed308fc23c18c74b663.svg",
     "static/media/email.svg": "/static/media/email.6e9dcf3eb71066bbf8cc1f9262e5e8cb.svg",
-    "main.786fb070.css.map": "/static/css/main.786fb070.css.map",
-    "main.b2c47b77.js.map": "/static/js/main.b2c47b77.js.map",
+    "static/media/colorless.svg": "/static/media/colorless.4af949b50d04a437b836.svg",
+    "main.139e937a.css.map": "/static/css/main.139e937a.css.map",
+    "main.d44142e4.js.map": "/static/js/main.d44142e4.js.map",
     "453.f69bbbff.chunk.js.map": "/static/js/453.f69bbbff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.786fb070.css",
-    "static/js/main.b2c47b77.js"
+    "static/css/main.139e937a.css",
+    "static/js/main.d44142e4.js"
   ]
 }

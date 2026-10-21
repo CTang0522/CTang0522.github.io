@@ -60,6 +60,10 @@ export function Navbar() {
                     - PixelArt Application
                 </a>&nbsp;<br/>
 
+                &nbsp;<a href="/#/Projects/MTGCommander" className="navbar-link">
+                    - MTG Commander Application
+                </a>&nbsp;<br/>
+
             </div>
             )}
       </div>

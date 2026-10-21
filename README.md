@@ -11,6 +11,7 @@ This project is meant to demonstrate my knowledge of React as well as abilities 
     * [Camera Project](https://ctang0522.github.io/#/Projects/Camera)
     * [Artboard Project](https://ctang0522.github.io/#/Projects/ArtBoard)
     * [To Do List Project](https://ctang0522.github.io/#/Projects/ToDo)
+    * [MTG Commander Project](https://ctang0522.github.io/#/Projects/MTGCommander)
 
 ## Available Scripts
 

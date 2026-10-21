@@ -1,6 +1,6 @@
 import MyParticles from "../MyParticles";
 import CardDetails from "./CardDetails";
-import CardImage2 from "./CardImage2";
+import CardImage2 from "./CardImage";
 import { useState } from "react";
 import "./mtg.css";
 import { Fade } from "react-awesome-reveal";
@@ -89,7 +89,8 @@ function MTGCommander() {
                     </div>
 
                     <div className="mtg-sections mtg-detailsSection">
-                        <CardDetails data={cardDetails} />
+						<div className="mtg-detailsStats"><CardDetails data={cardDetails} /></div>
+                        
                         {error && <span>{error}</span>}
 
                         <div className="mtg-findCommander">

@@ -17,10 +17,9 @@
 .mtg-cardImage {
     position: absolute;
     inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    border-radius: 1vw;
+    height: 55vh;
+    object-fit:contain;
+    border-radius: 1vmax;
     display: block;
 }
 
@@ -36,7 +35,7 @@
     }
 
     25% {
-        transform: translateY(-1vh) rotate(-13deg);
+        transform: translateY(-1vmax) rotate(-13deg);
         opacity:1;
     }
 
@@ -45,7 +44,7 @@
     }
 
     100% {
-        transform: translateY(100vh) rotate(50deg);
+        transform: translateY(100vmax) rotate(50deg);
         opacity: 1;
     }
 }
@@ -59,13 +58,13 @@
     display: flex;
     gap: 1vw;
     z-index:0;
-    height: 95vh;
+    height: 100vh;
     overflow: hidden;
 }
 
 .mtg-sections {
     width: 35vw;
-    height: 45vh;
+    height: 55vh;
     justify-content: center;
     align-items: center;
     margin-top: auto;
@@ -76,6 +75,7 @@
     display: flex;
     flex-direction: column;
     font-size: large;
+    gap: 1vh;
 }
 
 .mtg-cardDetailsName {
@@ -84,20 +84,32 @@
 
 .mtg-detailsSection {
     border: 1px solid black;
-    border-radius: 1vw;
+    border-radius: 1vmax;
     background-color: rgb(59, 70, 75);
     display: flex;
     flex-direction: column;
 }
 
+.mtg-detailsStats {
+    width: 95%;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.mtg-colorPip {
+    width: 1vmax;
+    height: 1vmax;
+}
+
 .mtg-findCommander {
-    width: 25vw;
+    width: 25vmax;
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 9vh;
 }
 
 .mtg-findCommanderButton {
-    border-radius: 1vw;
+    border-radius: 1vmax;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,9 +119,9 @@
 .colorOption {
     appearance: none;
     -webkit-appearance: none;
-    width: 2vw;
-    height: 2vw;
-    border-radius: 1vw;
+    width: 2vmax;
+    height: 2vmax;
+    border-radius: 1vmax;
     background-color: transparent;
     cursor: pointer;
 }

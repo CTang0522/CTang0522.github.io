@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import "./mtg.css";
 import cardBack from "./assets/cardback.png";

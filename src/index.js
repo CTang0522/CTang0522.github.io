@@ -13,6 +13,7 @@ import DragItems from './pages/DragItems/DragItems';
 import ToDo from './pages/ToDo/ToDo';
 import MovieCatalogue from './pages/MovieCatalogue/MovieCatalogue';
 import PixelArt from './pages/PixelArt/PixelArt';
+import MTGCommander from './pages/MTGCommander/MTGCommander';
 
 export default function App() {
   return(
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="/Projects/ToDo" element={<ToDo/>} />
           <Route path="/Projects/MovieCatalogue" element={<MovieCatalogue/>} />
           <Route path="/Projects/PixelArt" element={<PixelArt/>} />
+          <Route path="/Projects/MTGCommander" element={<MTGCommander/>} />
 
 
       </Routes>

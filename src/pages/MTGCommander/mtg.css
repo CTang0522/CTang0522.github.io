@@ -1,0 +1,163 @@
+.mtg-cardImage2 {
+    width: 20vw;
+    display: block;
+    border-radius: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mtg-cardFlip {
+    position: relative;
+    width: 20vw;
+    aspect-ratio: 63 / 88;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mtg-cardImage {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 1vw;
+    display: block;
+}
+
+.mtg-cardFalling {
+    animation: commanderFall 0.7s ease-in forwards;
+    pointer-events: none;
+}
+
+@keyframes commanderFall {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+
+    25% {
+        transform: translateY(-1vh) rotate(-13deg);
+        opacity:1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(100vh) rotate(50deg);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+.mtg-container {
+    display: flex;
+    gap: 1vw;
+    z-index:0;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.mtg-sections {
+    width: 35vw;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mtg-cardDetails {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+.mtg-cardDetailsName {
+    font-size:xx-large;
+}
+
+.mtg-detailsSection {
+    border: 1px solid black;
+    border-radius: 1vw;
+    background-color: rgb(59, 70, 75);
+    display: flex;
+    flex-direction: column;
+}
+
+.mtg-findCommander {
+    width: 25vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mtg-findCommanderButton {
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.colorOption {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 1vw;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.colorRed {
+    border: 1.5px solid rgb(255, 133, 133);
+}
+.colorRed:checked {
+    background-color: rgb(255, 133, 133);
+    background-image: url('./assets/red.svg');
+}
+
+.colorBlue {
+    border: 1.5px solid rgb(122, 168, 255);
+}
+.colorBlue:checked {
+    background-color: rgb(122, 168, 255);
+    background-image: url('./assets/blue.svg');
+}
+
+.colorGreen {
+    border: 1.5px solid rgb(103, 167, 103);
+}
+.colorGreen:checked {
+    background-color: rgb(145, 214, 145);
+    background-image: url('./assets/green.svg');
+}
+
+.colorWhite {
+    border: 1.5px solid rgb(223, 211, 146);
+}
+.colorWhite:checked {
+    background-color: rgb(255, 246, 197);
+    background-image: url('./assets/white.svg');
+}
+
+.colorBlack {
+    border: 1.5px solid rgb(35, 35, 35);
+}
+.colorBlack:checked {
+    background-color: rgb(35, 35, 35);
+    background-image: url('./assets/black.svg');
+}
+
+.colorColorless {
+    border: 1.5px solid rgb(165, 165, 165);
+}
+.colorColorless:checked {
+    background-color: rgb(165, 165, 165);
+    background-image: url('./assets/colorless.svg');
+}

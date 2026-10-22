@@ -10,7 +10,7 @@ function CardDetails(params) {
 
     const colorToIcon = {
         "R":<img src={red} className='mtg-colorPip'/>,
-        "B":<img src={blue} className='mtg-colorPip'/>,
+        "U":<img src={blue} className='mtg-colorPip'/>,
         "G":<img src={green} className='mtg-colorPip'/>,
         "W":<img src={white} className='mtg-colorPip'/>,
         "B":<img src={black} className='mtg-colorPip'/>
